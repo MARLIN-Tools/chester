@@ -609,16 +609,18 @@ func (p *Position) EnemyQueensOrRooks() Bitboard {
 	return (p.pieces[Queen] | p.pieces[Rook]) & p.allPieces[p.inactive]
 }
 
-// Enemies returns a Bitboard of all squares occupied by the inactive color.
+// Enemies returns a Bitboard of squares occupied by capturable inactive-color
+// pieces. The enemy king is excluded because legal moves may not capture it.
 func (p *Position) Enemies() Bitboard {
-	return p.allPieces[p.inactive]
+	return p.allPieces[p.inactive] &^ p.EnemyKing()
 }
 
 // EnemiesOrEmpty returns a Bitboard of all squares that are either empty or
 // occupied by the inactive color — i.e. valid landing squares for active-color
-// pieces when excluding friendly captures.
+// pieces when excluding friendly captures. The enemy king square is excluded,
+// because legal moves may not move onto it.
 func (p *Position) EnemiesOrEmpty() Bitboard {
-	return ^p.allPieces[p.active]
+	return ^p.allPieces[p.active] &^ p.EnemyKing()
 }
 
 // FullMoves returns the full-move counter. It starts at 1 and is incremented

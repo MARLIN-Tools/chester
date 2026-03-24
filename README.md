@@ -105,3 +105,19 @@ perft 119060324 in 363.214708ms
 - [Chess Programming Wiki](https://www.chessprogramming.org)
 - [Magic Bitboards](https://www.chessprogramming.org/Magic_Bitboards)
 - [Polyglot Opening Book Format](http://hgm.nubati.net/book_format.html)
+
+## Chester Gauntlet
+
+CCRL Blitz gauntlet results for `Chester 0.1.0` against fixed-opponent ratings:
+
+| Name | Rating | Score |
+| --- | ---: | ---: |
+| Halcyon 1 | 2102 | 7.5/40 |
+| Goldfish 2.1.1 | 2254 | 5/40 |
+| SOS 5.1 | 2543 | 9/40 |
+| GearHeart 0.16 TP | 1703 | 22.5/40 |
+| Dragontooth 0.2 | 1041 | 32/40 |
+| SebLague Chess Engine | 1368 | 30.5/40 |
+| GC Engine 1.2 | 965 | 30/40 |
+| DoctorB 1.21 | 1327 | 33.5/40 |
+| Performance Rating | 1685 | 170/320 |

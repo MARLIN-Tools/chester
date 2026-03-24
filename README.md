@@ -112,12 +112,12 @@ CCRL Blitz gauntlet results for `Chester 0.1.0` against fixed-opponent ratings:
 
 | Name | Rating | Score |
 | --- | ---: | ---: |
-| Goldfish 2.1.1 | 2254 | 5/40 |
-| Halcyon 1 | 2102 | 7.5/40 |
-| SOS 5.1 | 2543 | 9/40 |
-| GearHeart 0.16 TP | 1703 | 22.5/40 |
-| GC Engine 1.2 | 965 | 30/40 |
-| SebLague Chess Engine | 1368 | 30.5/40 |
-| Dragontooth 0.2 | 1041 | 32/40 |
-| DoctorB 1.21 | 1327 | 33.5/40 |
-| Performance Rating | 1685 | 170/320 |
+| Goldfish 2.1.1 | 2254 | 5/35 |
+| Halcyon 1 | 2102 | 7.5/36 |
+| SOS 5.1 | 2543 | 9/38 |
+| GearHeart 0.16 TP | 1703 | 22.5/35 |
+| GC Engine 1.2 | 965 | 30/35 |
+| SebLague Chess Engine | 1368 | 30.5/34 |
+| Dragontooth 0.2 | 1041 | 32/34 |
+| DoctorB 1.21 | 1327 | 33.5/37 |
+| Performance Rating | 1744 | 170/284 |
